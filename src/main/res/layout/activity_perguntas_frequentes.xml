@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Atividades.ActivityPerguntasFrequentes">
+
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="356dp"
+        android:layout_height="383dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+
+            >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="343dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"
+
+                android:text="1. Porque doar sangue?\n
+Doar sangue é um ato de solidariedade onde você estará salvando vidas.\n
+
+2. Qual a importância de doar sangue?\n
+
+Além de ser um ato de solidariedade, os hospitais necessitam para as cirurgias hospitalares,
+tratamentos quimioterápicos, pacientes que fazem transplantes e aqueles com leucemia. Com
+essa grande demanda os hemocentros necessita de muitos doadores. E a sua solidariedade
+estará ajudando todos esses pacientes.\n
+
+3. Quem está apto para doar sangue?\n
+
+Qualquer pessoa que esteja bem de saúde, que tenha 16 ou 69 anos, com peso acima de 50
+kg. É necessário que esteja bem alimentado 4h antecedente da doação.\n
+
+4. Quais documentos necessários para doar sague?\n
+
+É necessário levar um documento com foto que seja expedido por órgão oficial. Exemplo: RG
+(Carteira de Identidade), passaporte, carteira de trabalho, Carteira Nacional de Habilitação,
+Carteira de Identidade Profissional, e Certificado de Reservista.\n
+
+5. É necessário estar em jejum para doar sangue?\n
+
+O doador não pode estar em jejum. Inclusive deve estar bem alimentado e deve evitar
+alimentos gordurosos 3 horas antes da coleta.\n
+
+6. Qual o tempo da doação?\n
+
+Incluindo os procedimentos de triagem bem como: (cadastro, verificar sinais vitais, testes de
+anemia, triagem, coleta de sangue), duração de pelo menos 45 minutos.\n
+
+7. Qual tempo o corpo leva para repor o sangue doado?\n
+
+O organismo leva 72 horas após a doação para repor no corpo o sangue doado.\n
+
+8. De quanto em quanto tempo posso doar sangue?\n
+
+Para os homens o tempo mínimo é de 60 dias, para as mulheres o tempo mínimo é de 90 dias.\n
+
+ 9. Quem tomou vacina de hepatite B, pode doar sangue?\n
+
+Somente após 48 horas.\n
+
+10. Quem tomou vacina de febre amarela, pode doar sangue?\n
+
+Somente após 4 semanas.\n
+
+11.Quem tomou vacina da gripe, pode doar sangue?\n
+ Somente após 48 horas.\n
+
+12.Mulheres no período menstrual, pode doar sangue?\n
+Sim.\n
+        "
+                android:textColor="@android:color/background_light"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="153dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/perguntasfrequentes"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "860238570370",
+    "firebase_url": "https://sangue-bom-v4.firebaseio.com",
+    "project_id": "sangue-bom-v4",
+    "storage_bucket": "sangue-bom-v4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860238570370:android:b1917720a17b4fb6",
+        "android_client_info": {
+          "package_name": "com.sanguebom.group.sanguebomsd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860238570370-b81taid75139tjqt55p0pvqdi96fg7li.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanguebom.group.sanguebomsd",
+            "certificate_hash": "e11a9340dd67c7d1de5b12fef883c262a8f24193"
+          }
+        },
+        {
+          "client_id": "860238570370-kp8rrl9rt8nqi6b87t7q2028qffcvhpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD79FZMpM514p-s9agWbu0Cfl5f7Xp7_Zs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860238570370-kp8rrl9rt8nqi6b87t7q2028qffcvhpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

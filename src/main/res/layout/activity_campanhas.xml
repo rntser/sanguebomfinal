@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Atividades.ActivityCampanhas">
+
+    <EditText
+        android:id="@+id/edtNomeCampanha"
+        android:hint="Digite nome da Campanha"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/edtTemaCampanha"
+        android:layout_width="match_parent"
+        android:hint="Digite o Tema da Campanha"
+        android:inputType="textPersonName"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/edtAssuntoCampanha"
+        android:layout_width="match_parent"
+        android:hint="Digite o Assunto da Campanha"
+        android:inputType="textPersonName"
+        android:layout_height="wrap_content" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/genres" />
+
+    <Button
+        android:id="@+id/btnSalvarCampanha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALVAR CAMPANHA" />
+
+    <ListView
+        android:id="@+id/listViewCampanhas"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/spinnerGenres"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+
+</LinearLayout>

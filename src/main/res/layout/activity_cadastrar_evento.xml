@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".Atividades.CadastrarEventoActivity">
+
+
+    <EditText
+        android:id="@+id/edtNomeEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite nome do Evento"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/edtTemaEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o Tema do Evento"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/edtAssuntoEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o Assunto do Evento"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/btnSalvarEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALVAR EVENTO" />
+</LinearLayout>

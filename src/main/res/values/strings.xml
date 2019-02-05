@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SANGUE BOM SD</string>
+
+    <string name="facebook_app_id">400822987336201 </string>
+    <string name="facebook_login_protocol_scheme">fb400822987336201 </string>
+    <string name="title_activity_meus_eventos">MeusEventosActivity</string>
+    <array name="genres">
+
+        <item>Meus Anuncios</item>
+    </array>
+
+
+
+</resources>
